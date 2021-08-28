@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding:0%;
+}
+
+body{
+    display:flex;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: darkmagenta;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    /* border: 2px solid red; */
+    width:100%;
+    padding:15px;
+    background-color: lightgrey;
+    color:olive;
+}
+
+.upper button{
+    padding:5px;
+    color:limegreen;
+    background-color: mediumspringgreen;
+    border: none;
+}
+
+.upper .gall{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    /* border: 2px solid green; */
+    min-height: 88vh;
+    padding: 15px;
+}
+
+.image img{
+    width:50vw;
+    height:80vh;
+    border: honeydew 2px solid;
+}
+
+a{
+    padding:15px;
+    background-color:cadetblue;
+    font-size: x-large;
+    color:darkgreen;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+#dog-sub-breeds {
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    width: 15%;
+    min-width: 150px;
+}
+
+#dog-sub-breeds option {
+    font-size: 1rem;
+}
+
+.flex-breed{
+    /* min-height:70vh; */
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1.5rem;
+    width: 100%;
+    /* display:none; */
+
+}
+
+.flex-breed img{
+    display: flex;
+    margin:1rem;
+    width: 25vw;
+    height:25vh;
+    border:darkred 3px solid;
+}
+
+
+
