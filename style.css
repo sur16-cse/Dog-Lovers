@@ -24,18 +24,28 @@ body{
     padding:15px;
     background-color: lightgrey;
     color:olive;
+    /* position: fixed; */
 }
 
 .upper button{
     padding:5px;
-    color:limegreen;
+    color:rgb(133, 23, 127);
     background-color: mediumspringgreen;
     border: none;
+}
+button:hover{
+    background-color: darkorange;
+    cursor: pointer;
 }
 
 .upper .gall{
     background-color: cornflowerblue;
-    color: darkblue;
+    color: rgb(200, 18, 176);
+}
+
+.upper .gall:hover{
+    background-color: darkred;
+    cursor: pointer;
 }
 
 
@@ -46,8 +56,9 @@ body{
     flex-direction: row;
     width: 100%;
     /* border: 2px solid green; */
-    min-height: 88vh;
+    min-height: 80vh;
     padding: 15px;
+    padding-bottom: 0%;
 }
 
 .image img{
@@ -57,13 +68,17 @@ body{
 }
 
 a{
-    padding:15px;
+    padding:10px;
     background-color:cadetblue;
     font-size: x-large;
     color:darkgreen;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: bolder;
     border-radius: 4px;
+}
+
+a:hover{
+    background-color: deeppink;
 }
 
 #dog-sub-breeds {
@@ -78,14 +93,12 @@ a{
 }
 
 .flex-breed{
-    /* min-height:70vh; */
     display:flex;
     flex-wrap: wrap;
     align-items: center;
     padding: 1.5rem;
     width: 100%;
-    /* display:none; */
-
+    justify-content: center;
 }
 
 .flex-breed img{
@@ -93,7 +106,15 @@ a{
     margin:1rem;
     width: 25vw;
     height:25vh;
-    border:darkred 3px solid;
+    border:darkred 3px solid; 
+    filter: grayscale(0.3);
+}
+
+.flex-breed img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all 0.4s;
 }
 
 

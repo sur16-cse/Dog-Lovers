@@ -39,7 +39,7 @@ dropdown.change(function(){
 })
 
 $('#fetch-dog-image-button').click((e)=>{
-    $('#breed-image').hide();
+   // $('#breed-image').hide();
     e.preventDefault();
     if (submit) {
         breed = dropdown.val();
@@ -66,6 +66,7 @@ function displayDog(breed){
          $('#dog-image').attr('src',imageUrl);
     }) 
 }
+
 var toggle = true;
 $(document).ready(() => {
     $("#gallery").click((e) => {
